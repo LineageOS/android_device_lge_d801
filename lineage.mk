@@ -12,5 +12,7 @@ PRODUCT_MODEL := LG-D801
 PRODUCT_MANUFACTURER := lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=lge/g2_tmo_us/g2:5.0.2/LRX22G/1507914346dda:user/release-keys \
     PRIVATE_BUILD_DESC="g2_tmo_us-user 5.0.2 LRX22G 1507914346dda release-keys"
+
+BUILD_FINGERPRINT := lge/g2_tmo_us/g2:5.0.2/LRX22G/1507914346dda:user/release-keys
+
